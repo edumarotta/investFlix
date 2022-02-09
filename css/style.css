@@ -17,17 +17,29 @@ body {
     background: var(--black);
     font-family: 'Kanit', sans-serif;
     color: white;
+    ;
 }
-header{
+.nav{
     position: fixed;
     width: 100%;
     background-image: linear-gradient(to left, var(--light-orange), var(--dark-orange));
+    transition: 0.4s ease all
 }
+
+.nav2{
+    position: fixed;
+    width: 100%;
+    transition: 0.4s ease all
+    
+}
+
+
 header .container{
    
     display: flex;
     align-items: center;
     justify-content: space-between;
+    transition: 0.2s ease all
     
 }
 
@@ -129,4 +141,26 @@ header .container .left i:hover{
 }
 
 .carousel-films{
-    margin-top:10px}
+    margin-top:10px
+}
+
+footer .container {
+    margin-left: 100px;
+    margin-top: 20px;
+}
+
+footer .container i{
+    margin-left: 20px;
+}
+
+
+footer .container .copyright{
+    font-size: 11px;
+    color: grey;
+    text-decoration: none;
+}
+
+footer .container a{
+    text-decoration: none;
+    color: grey;
+}
