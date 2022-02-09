@@ -1,7 +1,8 @@
 :root {
     --red:#e50914;
-    --black:#141414;
-    
+    --black:#202020;
+    --light-orange: #FF8401;
+    --dark-orange:#FF590D;
 
 }
 
@@ -18,7 +19,9 @@ body {
     color: white;
 }
 header{
-    background-image: linear-gradient(to left, #FF8401, #FF590D);
+    position: fixed;
+    width: 100%;
+    background-image: linear-gradient(to left, var(--light-orange), var(--dark-orange));
 }
 header .container{
    
@@ -28,12 +31,16 @@ header .container{
     
 }
 
+
+
 header .logo{
     margin-left: 5px;
     color: #fff;
     font-family: 'Kanit', sans-serif;
     font-size: 40px;
 }
+
+
 
 header nav a{
     text-decoration: none;
@@ -42,7 +49,22 @@ header nav a{
 }
 
 header nav a:hover{
-    color:#fff;
+    color:#202020;
+}
+
+
+header .container .left{
+    margin-right: 100px;
+}
+
+header .container .left i{
+    margin-right: 10px;
+}
+
+header .container .left i:hover{
+    color: #202020;
+    cursor: pointer;
+    transition: 0.3s ease all;
 }
 
 .container{
