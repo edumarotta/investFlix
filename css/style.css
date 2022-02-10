@@ -87,7 +87,7 @@ header .container .left i:hover{
 .principal-film{
     font-size: 16px;
     background-image: linear-gradient(rgba(255,105,13,0.10),rgba(255,105,13,0.10)100%), url("../img/capa.jpg");
-    height: 400px;
+    height: 600px;
     background-size: cover;
     display: flex;
     flex-direction: column;
@@ -139,14 +139,17 @@ header .container .left i:hover{
     width: 100%;
     display: block ;
 }
-
+.subtitle{
+    margin-top: 20px;
+    margin-left: 20px;
+}
 .carousel-films{
     margin-top:10px
 }
 
 footer .container {
     margin-left: 100px;
-    margin-top: 20px;
+    margin-top: 50px;
 }
 
 footer .container i{
