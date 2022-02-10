@@ -12,4 +12,10 @@ window.addEventListener("scroll", function(event) {
                 document.getElementById("navigator").classList.add('nav2')
                 document.getElementById("navigator").classList.remove('nav')
             }
-        });
+});
+
+
+
+  AOS.init();
+
+

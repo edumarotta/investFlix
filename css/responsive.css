@@ -4,6 +4,10 @@
         flex-direction: column;
 
     }
+
+    header .container .left{
+        display: none;
+    }
     
 
 
@@ -12,6 +16,8 @@
         width: 190px;
         height: 60px;
     }
+
+
 }
 
 
